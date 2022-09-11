@@ -11,6 +11,6 @@ def complement(data):
           res += 'C'
     return res
 
-with open('./rosalind_revc.txt') as f:
+with open('./files/rosalind_revc.txt') as f:
     data = f.read()
 print(complement(data))
