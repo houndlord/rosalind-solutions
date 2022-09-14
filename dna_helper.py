@@ -6,4 +6,4 @@ def base2number(base):
     return decipher_dict[base]
 
 def number2base(number):
-    return str([k for k, v in decipher_dict.items() if v == number])
+    return [k for k, v in decipher_dict.items() if v == number][0]
